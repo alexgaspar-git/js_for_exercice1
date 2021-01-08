@@ -12,10 +12,9 @@ for (let i = 0; i <= 20; i++) {
 
 let coding16 = ["saliou", "zakaria", "ayoub", "mohammed", "alex", "adame", "sebastien", "achraf", "bene", "abdellah", "malo", "louise", "natchez", "dawid", "maximilien", "jamila", "maxence", "zulma"]
 
-coding16.forEach(element => {
-    console.log(`Bonjour ${element}`)
-});
-
+for (let i = 0; i < coding16.length; i++) {
+    console.log(`bonjour ${classe[i]}`);
+}
 // - # Exo 3 Boucles FOR 
 //   ## - Dans un prompt inserés un nombre
 //   ## - A l'aide d'une boucle for, affichez les nombres de 0 jusqu'au nombre que vous avez choisi.
